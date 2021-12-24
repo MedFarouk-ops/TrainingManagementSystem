@@ -1,0 +1,51 @@
+:root {
+    --jumbotron-padding-y: 3rem;
+  }
+  div.wpforms-container-full .wpforms-form button[type=submit] {
+ 
+    color: #0099CC; /* Text color */
+     
+    background-color: transparent; /* Remove background color */
+     
+    border: 2px solid #0099CC; /* Border thickness, line style, and color */
+     
+    border-radius: 5px; /* Adds curve to border corners */
+     
+    text-transform: uppercase; /* Make letters uppercase */
+     
+    }
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
