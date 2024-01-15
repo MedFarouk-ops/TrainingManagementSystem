@@ -1,4 +1,4 @@
-Before using this project , Give it a start please.
+Before using this project , Give it a star please.
 ## description
 ### les Acteur :
 ![Les Acteur](https://user-images.githubusercontent.com/67444164/147373604-dd847b1f-22fd-447f-948d-781dbe37bfd4.PNG)
